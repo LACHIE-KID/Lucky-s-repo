@@ -1,0 +1,32 @@
+Package: com.lachie.packagei
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: LACHIE-KID
+Depends: firmware (>= 3.0)
+Filename: debs/packagei_1.0.0_iphoneos-arm.deb
+Size: 114772
+MD5sum: 8d2a21d67ce2693575eb4d307e94e8b5
+SHA1: 10ae8a0b9910b5b42bea43f1c0b2589dbe38d149
+SHA256: d17397f973bdfeb7cf314fbf4d767f0191f28332a214d2441f503dd401de8dec
+Section: System
+Description: A skeuomorphic Cydia alternative for iOS 6.
+Author: LACHIE-KID
+Name: PackageI
+
+Package: com.mdausch.exampletweak
+Version: 0.0.2-2+debug
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/com.mdausch.exampletweak_0.0.2-2+debug_iphoneos-arm.deb
+Size: 1702
+MD5sum: 31301ab1bffd3af1d89979569cca8132
+SHA1: d77337e194119fd655d26791db513475afc5e7aa
+SHA256: 73fe53e7ea8a35cf20c4496fd94793066fd33051ad0a951ff0f005b49f5d2643
+Section: Tweaks
+Description: An example package for testing out our personal Cydia repository
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: https://mdausch.github.io/depictions/?p=com.mdausch.exampletweak
+Name: ExampleTweak
+
