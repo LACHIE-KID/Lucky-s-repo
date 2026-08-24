@@ -1,0 +1,86 @@
+Package: com.hackyouriphone.auxo-le
+Version: 1.1k2
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), applist (>= 1.5.9), preferenceloader (>= 2.2.2)
+Conflicts: com.rpetrich.sectional, com.hackyouriphone.sectional
+Filename: debs/hyi-legacy/com.hackyouriphone.auxo-le_1.1k2_iphoneos-arm.deb
+Size: 436718
+MD5sum: 533174b029052f415c65a67c47100c70
+SHA1: 3f205a6529f3791c94459662149c28255f7b3162
+SHA256: 37ce8f71b910acb6ee4bb94b01968d58cf87ca0e1291f9dd40e71e1f6f472eba
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=auxo-le
+Description: A modern app switcher in control center
+Author: A3Tweaks <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=auxo-le
+Name: Auxo Legacy Edition
+
+Package: com.hackyouriphone.graviboard
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 5.0), mobilesubstrate, libactivator, preferenceloader (>= 1.2), libbox2d
+Conflicts: com.conradkramer.graviboard
+Replaces: com.conradkramer.graviboard
+Filename: debs/hyi-legacy/com.hackyouriphone.graviboard_2.1.1-1_iphoneos-arm.deb
+Size: 193170
+MD5sum: 767f3cc22737a770c0aeeade791d219c
+SHA1: 14b57e8a815c714434479f973bc04fafa84934fe
+SHA256: ace62e02baecc07e515830819c8ae179782ee9338bdbdf1e5d68442a69fd3674
+Section: HYI - Tweaks
+Description: Adds gravity to SpringBoard!
+Author: Conrad Kramer <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=graviboard
+Name: Graviboard
+
+Package: com.hyi.androidlockxt
+Version: 3.6k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate, preferenceloader (>= 2.0.3-2), firmware (>= 3.2)
+Conflicts: com.intelliborn.intelliscreen, cydialer, com.zmaster.androidlock
+Filename: debs/hyi-legacy/com.hyi.androidlockxt_3.6k_iphoneos-arm.deb
+Size: 3884038
+MD5sum: 1542fe8be6293a24e1f603ae6047e649
+SHA1: 4261ec9b4c4743da4f4ae254cf37c4a61945d772
+SHA256: 59f97c888f7a6f59857cbfb0c8e9ea3fd1bf1c8890b695e2ea98dbffbc00e1bf
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=androidlockxt
+Description: An Android-like lockscreen where you have to draw the correct pattern to unlock.
+Author: Zmaster <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=androidlockxt
+Name: AndroidLock XT
+
+Package: com.lucky.packagei
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Lucky <lucky@example.com>
+Depends: firmware (>= 6.0)
+Filename: debs/PackageI.deb
+Size: 2358
+MD5sum: f55f79dcf35796f76c05a989502aecfe
+SHA1: 35c42990dd7f6ce28d41de8e57030132a4d8ecf8
+SHA256: 2890db180eaba987828c66f507012dea756968440cc5a15e0ae15e25ed6bba2f
+Section: Utilities
+Description: A classic Installer.app inspired package manager for iOS 6!
+Author: Lucky
+Name: Package I
+
+Package: com.mdausch.exampletweak
+Version: 0.0.2-2+debug
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/com.mdausch.exampletweak_0.0.2-2+debug_iphoneos-arm.deb
+Size: 1702
+MD5sum: 31301ab1bffd3af1d89979569cca8132
+SHA1: d77337e194119fd655d26791db513475afc5e7aa
+SHA256: 73fe53e7ea8a35cf20c4496fd94793066fd33051ad0a951ff0f005b49f5d2643
+Section: Tweaks
+Description: An example package for testing out our personal Cydia repository
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: https://mdausch.github.io/depictions/?p=com.mdausch.exampletweak
+Name: ExampleTweak
+
