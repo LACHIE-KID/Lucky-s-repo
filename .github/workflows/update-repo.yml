@@ -24,10 +24,8 @@ jobs:
           gzip -9c Packages > Packages.gz
           bzip2 -9c Packages > Packages.bz2
 
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin master --rebase || true
-          git add Packages Packages.gz Packages.bz2
-          git diff --staged --quiet || (git commit -m "Auto-update Cydia Packages index" && git push)
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update Cydia Packages index"
+          file_pattern: Packages Packages.gz Packages.bz2
